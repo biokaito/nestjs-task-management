@@ -13,8 +13,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
       password: 'BAtrieu281',
       database: 'tasks-management',
       autoLoadEntities: true,
-      synchronize: true,
-      entities: [__dirname + '/**/*.entity.{js,ts}']
+      synchronize: true
     }),
   ],
 })
